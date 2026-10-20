@@ -1,0 +1,1 @@
+No, los valores hay que usar synchronized y usar con wait() y notifyAll() para coordinar ambos hilos así uno espera hasta que el otro termine garantizando que se recojan los valores sin perder alguno.
